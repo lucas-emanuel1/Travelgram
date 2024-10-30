@@ -1,1 +1,4 @@
 @import url(global.css);
+p {
+  font: var(--paragraph-sm);
+}
