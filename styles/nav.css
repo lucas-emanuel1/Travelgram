@@ -1,0 +1,19 @@
+#nav-primary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  padding-inline: 32px;
+}
+#primary-menu {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+#primary-menu li a {
+  padding: 8px 20px;
+}
+#primary-menu li:last-child img  {
+  width: 40px;
+  height: 40px;
+}

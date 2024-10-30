@@ -23,3 +23,32 @@
   --paragraph-md: 14px/170% var(--font-family);
   --paragraph-sm: 12px/170% var(--font-family);
 }
+
+body {
+  font: var(--paragraph-md);
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-secondary);
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+ul li {
+  list-style: none;
+}
