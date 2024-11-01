@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding-block: 20px;
-  padding-inline: 32px;
 }
 #primary-menu {
   display: flex;
@@ -13,7 +12,38 @@
 #primary-menu li a {
   padding: 8px 20px;
 }
-#primary-menu li:last-child img  {
+#primary-menu li:last-child img {
   width: 40px;
   height: 40px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 32px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+}
+.info li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.info span {
+  display: inline-block;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.about h1 {
+  color: var(--text-color-primary);
+  font: var(--heading1);
+}
+.about p {
+  max-width: 42ch;
 }
